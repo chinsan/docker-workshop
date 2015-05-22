@@ -21,7 +21,7 @@ PULL_SCRIPT
 Vagrant.configure(2) do |config|
 
     config.vm.box = "williamyeh/ubuntu-trusty64-docker"
-    config.vm.box_version = ">= 1.5.0"
+    config.vm.box_version = ">= 1.6.2"
 
     # avoid possible request "vagrant@127.0.0.1's password:" when "up" and "ssh"
     config.ssh.password = "vagrant"

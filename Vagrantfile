@@ -15,7 +15,7 @@ Vagrant.configure(2) do |config|
     config.vm.define "main", primary: true do |node|
 
         node.vm.box = "williamyeh/ubuntu-trusty64-docker"
-        node.vm.box_version = ">= 1.5.0"
+        node.vm.box_version = ">= 1.6.2"
 
         node.vm.network "private_network", ip: "10.0.0.10"
 
